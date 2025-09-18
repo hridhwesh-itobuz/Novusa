@@ -37,27 +37,25 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-option">Projects</a>
+              <a class="nav-link nav-option" style="cursor: pointer"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-option">Blog</a>
+              <a class="nav-link nav-option" style="cursor: pointer">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-option">Pricing</a>
+              <a class="nav-link nav-option" style="cursor: pointer">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-option">Contact</a>
+              <a class="nav-link nav-option" style="cursor: pointer">Contact</a>
             </li>
           </ul>
           <form class="d-flex flex-lg-row" role="search">
-            <input
-              class="form-control me-1 text-center rounded-0 search-input border-black"
-              type="search"
-              style="width: 125px; font-weight: 500; padding: auto"
-              class="nav-search-bar"
-              placeholder="Let's Talk"
-              aria-label="search"
-            />
+            <button class="me-1 text-center rounded-0 search-input">
+              Let's Talk
+            </button>
+
             <div class="p-0 justify-content-center align-content-center">
               <button class="btn bg-warning" type="submit">
                 <img
@@ -138,7 +136,7 @@
           </button>
           <img
             src="./assets/images/Take a tour.png"
-            style="height: 3em; width: auto"
+            style="height: 3em; width: auto; cursor: pointer"
             class="ms-lg-5 mt-lg-4 take-a-tour-img"
           />
         </div>
@@ -163,7 +161,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content .It is a long established fact that .
                 <br /><br />
-                <span class="offset-11">→</span>
+                <span class="offset-11" style="cursor: pointer">→</span>
               </p>
             </div>
           </div>
@@ -180,7 +178,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content .It is a long established fact that .
                 <br /><br />
-                <span class="offset-11">→</span>
+                <span class="offset-11" style="cursor: pointer">→</span>
               </p>
             </div>
           </div>
@@ -197,7 +195,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content .It is a long established fact that .
                 <br /><br />
-                <span class="offset-11">→</span>
+                <span class="offset-11" style="cursor: pointer">→</span>
               </p>
             </div>
           </div>
@@ -320,7 +318,7 @@
             <p class="card-text">
               It is a long established fact that a reader will be distracted by.
               <br />
-              <span style="color: #6f77f1">Read More...</span>
+              <span style="color: #6f77f1; cursor: pointer">Read More...</span>
             </p>
           </div>
         </div>
@@ -338,7 +336,7 @@
             <p class="card-text">
               It is a long established fact that a reader will be distracted by.
               <br />
-              <span style="color: #6f77f1">Read More...</span>
+              <span style="color: #6f77f1; cursor: pointer">Read More...</span>
             </p>
           </div>
         </div>
@@ -356,7 +354,7 @@
             <p class="card-text">
               It is a long established fact that a reader will be distracted by.
               <br />
-              <span style="color: #6f77f1">Read More...</span>
+              <span style="color: #6f77f1; cursor: pointer">Read More...</span>
             </p>
           </div>
         </div>
@@ -374,7 +372,7 @@
       </p>
       <div class="card-group">
         <div
-          class="row row-cols-1 row-cols-md-3 row-cols-lg-3 px-md-4 gap-lg-3 gap-md-2 justify-content-center"
+          class="row row-cols-1 row-cols-md-3 row-cols-lg-3 px-md-4 gap-lg-1 gap-md-2 justify-content-center"
         >
           <div class="col col-9 col-sm-7 col-md-3 mb-3 mb-md-0 col-lg-3 px-0">
             <div
@@ -570,6 +568,7 @@
               class="form-control border-0 w-100 w-lg-auto mb-2 mb-lg-0 rounded-0 speed-input"
               style="background-color: #f2f2f2"
             />
+            <div style="width: 1px; background-color: black"></div>
             <input
               type="text"
               placeholder="Email Address"
@@ -880,7 +879,7 @@
           placeholder="Email Address"
         />
         <button
-          class="border-0 rounded"
+          class="border-0 rounded subscribe-btn"
           style="background-color: #6f77f1; color: white"
         >
           Subscribe
@@ -907,7 +906,9 @@
             <a class="nav-link px-3" style="color: black" href="#">Careers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" style="color: black" href="#">Help</a>
+            <a class="nav-link px-3 footer-link" style="color: black" href="#"
+              >Help</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link px-3" style="color: black" href="#">Privacy</a>
@@ -925,9 +926,13 @@
           <div
             class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start text-center text-md-start"
           >
-            <div style="color: #828282">Terms Of Use</div>
-            <div style="color: #828282">Copyright & Trademark</div>
-            <div style="color: #828282">Policy</div>
+            <div style="color: #828282; cursor: pointer">
+              <a>Terms Of Use</a>
+            </div>
+            <div style="color: #828282; cursor: pointer">
+              <a>Copyright & Trademark</a>
+            </div>
+            <div style="color: #828282; cursor: pointer"><a>Policy</a></div>
           </div>
         </div>
       </div>

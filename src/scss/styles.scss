@@ -25,7 +25,7 @@
 @media (min-width: 1400px) {
   body {
     background-image: url("../assets/images/base-bg.png");
-    background-position: center;
+    background-position: -10px -30px;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -296,6 +296,7 @@ body {
 
 .optimise-card-1 {
   @include optimise-card-mixin("1");
+  background-size: 15%;
   width: 19rem;
 }
 .optimise-card-2 {
@@ -439,7 +440,8 @@ body {
   }
 }
 .choose-card {
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scaleX(0.9);
+  transition: box-shadow 0.3s ease-in-out;
 
   &:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -960,6 +962,11 @@ body {
   &:hover {
     color: #6f77f1;
   }
+  .search-input {
+    width: 204px !important;
+    height: 77px !important;
+    font-size: 24px !important;
+  }
 }
 nav {
   .container {
@@ -1010,4 +1017,21 @@ nav {
     border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+}
+.subscribe-btn {
+  padding: 15px 20px 15px 20px;
+}
+
+.search-input {
+  width: 125px;
+  font-weight: 500;
+  padding: auto;
+  background-color: white;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.footer-links:hover {
+  color: #6f77f1;
 }
