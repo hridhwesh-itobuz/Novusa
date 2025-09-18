@@ -922,6 +922,18 @@ body {
   .subscribe-caption {
     font-size: 20px !important;
   }
+  .nav-option {
+    font-size: 24px !important;
+  }
+
+  .nav-search-bar::placeholder {
+    font-size: 24px !important;
+  }
+}
+.nav-search-bar {
+  width: 50px;
+  font-weight: 500;
+  padding: auto;
 }
 .client-container {
   min-width: 100%;

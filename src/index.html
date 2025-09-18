@@ -32,26 +32,29 @@
         >
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex gap-lg-5">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active nav-option" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link">Projects</a>
+              <a class="nav-link nav-option">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Blog</a>
+              <a class="nav-link nav-option">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Pricing</a>
+              <a class="nav-link nav-option">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link nav-option">Contact</a>
             </li>
           </ul>
           <form class="d-flex flex-lg-row" role="search">
             <input
               class="form-control me-1 text-center rounded-0 search-input border-black"
               type="search"
-              style="width: 125px"
+              style="width: 125px; font-weight: 500; padding: auto"
+              class="nav-search-bar"
               placeholder="Let's Talk"
               aria-label="search"
             />
@@ -886,21 +889,50 @@
         </button>
       </div>
     </div>
-    <div class="container text-center mt-5">
-      <img src="./assets/images/nuvosa.png" class="img-fluid mb-4" />
-      <div
-        class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 justify-content-center mb-5"
-      >
-        <div class="col-12 col-sm-2"><a>Overview</a></div>
-        <a class="col-12 col-sm-2">Pricing</a>
-        <a class="col-12 col-sm-2">Careers</a>
-        <a class="col-12 col-sm-2">Help</a>
-        <a class="col-12 col-sm-2">Privacy</a>
+    <footer class="footer-section py-3 py-lg-5">
+      <div class="container text-center">
+        <div class="logo mb-4">
+          <h4 class="fw-semibold mb-0 text-black">
+            <span class="fw-medium text-dark fs-1">nuvosa</span
+            ><span class="text-danger fs-2">•</span>
+          </h4>
+        </div>
+
+        <ul class="nav justify-content-center mb-4 gap-5 flex-wrap">
+          <li class="nav-item">
+            <a class="nav-link px-3" style="color: black" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" style="color: black" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" style="color: black" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" style="color: black" href="#">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" style="color: black" href="#">Privacy</a>
+          </li>
+        </ul>
+
+        <hr class="border-secondary mb-4" />
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center small gap-3 px-lg-5"
+        >
+          <div style="color: #828282">
+            Copyright © 2023 Nuvosa, All Rights Reserved.
+          </div>
+          <div
+            class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start text-center text-md-start"
+          >
+            <div style="color: #828282">Terms Of Use</div>
+            <div style="color: #828282">Copyright & Trademark</div>
+            <div style="color: #828282">Policy</div>
+          </div>
+        </div>
       </div>
-      <hr />
-      <p style="color: #828282; text-align: start">
-        Copyright © 2023 nuvosa, All rights reserved.
-      </p>
-    </div>
+    </footer>
   </body>
 </html>
