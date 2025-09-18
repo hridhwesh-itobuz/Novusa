@@ -155,8 +155,8 @@ body {
   .plans-title {
     color: white;
   }
-  transform: scaleY(1.1);
-  transition: transform 0.1s ease-in;
+  transform: scaleX(1.1) scaleY(1.1);
+  transition: transform 0.3s ease-in;
   background: url("../assets/images/plans-bg.png") no-repeat;
   background-position: center center;
   background-size: 120% 120%;
