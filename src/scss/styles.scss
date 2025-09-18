@@ -22,6 +22,15 @@
     border-bottom: 2px solid #6f77f1;
   }
 }
+@media (min-width: 1400px) {
+  body {
+    background-image: url("../assets/images/base-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
 .hero-cards-img {
   width: 60px;
   height: 70px;
@@ -141,12 +150,16 @@ body {
     }
   }
 }
+
 .my-card:hover {
   .plans-title {
     color: white;
   }
   transform: scaleY(1.1);
-  background-color: #6069ec;
+  background: url("../assets/images/plans-bg.png") no-repeat;
+  background-position: center center;
+  background-size: 120% 120%;
+
   .card-body {
     .card-text {
       .money-txt {
@@ -627,8 +640,16 @@ body {
     font-size: 16px;
   }
 }
+@media (min-width: 1400px) {
+  nav {
+    margin-bottom: 90px;
+  }
+}
 
 @media (min-width: 1920px) {
+  nav {
+    margin-bottom: 114px;
+  }
   .container {
     width: 1650px !important;
     max-width: 1650px !important;
@@ -929,11 +950,6 @@ body {
   .nav-search-bar::placeholder {
     font-size: 24px !important;
   }
-}
-.nav-search-bar {
-  width: 50px;
-  font-weight: 500;
-  padding: auto;
 }
 .client-container {
   min-width: 100%;
