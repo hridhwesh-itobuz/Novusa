@@ -15,7 +15,6 @@
   background-position: 150px 90px;
   border: 0;
   &:hover {
-    transform: scale(1);
     box-shadow: 0 10px 14px 2px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     border-radius: 0.25rem;
@@ -290,6 +289,20 @@ body {
 
     &.yellow {
       background-color: #ffcd4b;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .optimise-card-top {
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 7px !important;
+    img {
+      width: 70px !important;
+      height: 80px !important;
+    }
+    h5 {
+      font-size: 16px;
     }
   }
 }
@@ -651,6 +664,7 @@ body {
 
 @media (min-width: 1920px) {
   nav {
+    margin-top: 40px;
     margin-bottom: 114px;
   }
   .container {
@@ -719,8 +733,14 @@ body {
         .optimise-card-2,
         .optimise-card-3,
         .optimise-card-4 {
+          background-position: 180px 120px;
+          width: 400px;
+          height: 472px;
           .card-body {
             div {
+              img {
+                margin-top: 56px;
+              }
               .card-title {
                 font-size: 24px;
               }
@@ -734,6 +754,8 @@ body {
     }
   }
   .solution-div {
+    padding-bottom: 98px !important;
+    padding-top: 98px !important;
     margin-top: 233px;
     padding-left: 150px;
     padding-right: 150px;
@@ -755,13 +777,16 @@ body {
       }
       .col-lg-5 {
         img {
-          width: 607px;
+          width: 607px !important;
           height: 343px;
         }
       }
     }
   }
   .business-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 100px !important;
     margin-bottom: 84px !important;
     .business-row {
       div {
@@ -782,8 +807,18 @@ body {
       }
     }
   }
+  .secondary-cards {
+    width: 370px;
+    height: 289px;
+    padding-left: 30px;
+  }
+  .choose-column {
+    width: 365px;
+    height: 548px;
+  }
   .choose-container {
-    padding-bottom: 0px !important;
+    padding-top: 79px !important;
+    padding-bottom: 89px !important;
     h2 {
       font-size: 55px !important;
     }
@@ -796,7 +831,7 @@ body {
         div {
           .choose-card {
             padding-bottom: 0px !important;
-            margin-bottom: 89px !important;
+
             img {
               width: 300px !important;
               height: 200px !important;
