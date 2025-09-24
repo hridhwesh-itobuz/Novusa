@@ -75,6 +75,7 @@
     left: 35px;
     bottom: 20px;
   }
+
   .solution-div .solution-row .solution-col-1 button {
     font-size: 15px;
     margin-right: 0px;
@@ -149,6 +150,10 @@
   }
 }
 @media (min-width: 1400px) {
+  .subscribe-input1,
+  .subscribe-input2 {
+    width: 300px !important;
+  }
   .subscribe-caption {
     margin-bottom: 20px !important;
   }
@@ -232,6 +237,12 @@
 }
 
 @media (min-width: 1920px) {
+  .solution-div {
+    padding-right: 333px !important;
+    padding-left: 333px !important;
+    padding-top: 98px !important;
+    padding-bottom: 98px;
+  }
   .search-input,
   .search-btn {
     height: 52px;
@@ -554,6 +565,7 @@
   .expert-caption {
     font-size: 17px !important;
   }
+
   .team-cards {
     width: 269px !important;
     height: 339px !important;
@@ -577,6 +589,7 @@
   }
   .subscribe-caption {
     font-size: 20px !important;
+    margin-bottom: 41px !important;
   }
   .nav-option {
     font-size: 24px !important;
