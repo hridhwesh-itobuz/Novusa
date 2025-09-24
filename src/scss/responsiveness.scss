@@ -232,6 +232,15 @@
 }
 
 @media (min-width: 1920px) {
+  .search-input,
+  .search-btn {
+    height: 52px;
+  }
+  .pointer-left {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
   .subscribe-input1,
   .subscribe-input2 {
     width: 416px !important;
@@ -296,6 +305,7 @@
     }
     .card-body {
       .hero-card-body {
+        margin-top: 26px;
         font-size: 17px !important;
       }
       div {
