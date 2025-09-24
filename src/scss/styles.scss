@@ -271,7 +271,6 @@ body {
 }
 
 .choose-card {
-  transform: scaleX(0.9);
   transition: box-shadow 0.3s ease-in-out;
 
   &:hover {
@@ -391,8 +390,7 @@ body {
   }
 }
 .solution-div {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 75px 50px 75px;
 }
 .search-input {
   border-color: #212528;

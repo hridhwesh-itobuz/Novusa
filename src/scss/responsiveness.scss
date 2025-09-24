@@ -150,6 +150,10 @@
   }
 }
 @media (min-width: 1400px) {
+  .business-container {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
   .subscribe-input1,
   .subscribe-input2 {
     width: 300px !important;
@@ -237,6 +241,15 @@
 }
 
 @media (min-width: 1920px) {
+  .hero-card-container {
+    margin-bottom: 170px;
+  }
+  .optimise-card-top {
+    img {
+      width: 87px !important;
+      height: 95px !important;
+    }
+  }
   .solution-div {
     padding-right: 333px !important;
     padding-left: 333px !important;
@@ -375,10 +388,9 @@
           font-size: 17px !important;
         }
         button {
-          width: 214px;
-          height: 76px;
-          padding: auto;
-          font-size: 24px;
+          width: 218px !important;
+          height: 76px !important;
+          font-size: 24px !important;
         }
       }
       .col-lg-5 {
@@ -390,11 +402,12 @@
     }
   }
   .business-container {
+    margin-bottom: 84px !important;
+    margin-top: 100px !important;
     padding-left: 60px;
     padding-right: 60px;
-    margin-top: 100px !important;
-    margin-bottom: 84px !important;
     .business-row {
+      gap: 75px !important;
       div {
         div {
           img {
@@ -414,13 +427,17 @@
     }
   }
   .secondary-cards {
-    width: 370px;
-    height: 289px;
-    padding-left: 30px;
+    width: 370px !important;
+    height: 289px !important;
+    padding: 0px !important;
+    .card-body {
+      padding-left: 30px !important;
+      padding-right: 48px !important;
+    }
   }
   .choose-column {
-    width: 365px;
-    height: 548px;
+    width: 365px !important;
+    height: 548px !important;
   }
   .choose-container {
     padding-top: 79px !important;
