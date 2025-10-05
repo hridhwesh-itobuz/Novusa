@@ -63,6 +63,9 @@
 }
 
 @media (min-width: 992px) {
+	.solution-div {
+		padding: 40px 80px 40px 80px !important;
+	}
 	.expert-caption {
 		margin-bottom: 3rem;
 	}
@@ -126,6 +129,7 @@
 		font-size: 16px;
 	}
 }
+
 @media (max-width: 1000px) {
 	.stat-box {
 		h2 {

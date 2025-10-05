@@ -389,14 +389,9 @@ body {
 	&:hover {
 		color: #6f77f1;
 	}
-	.search-input {
-		width: 204px !important;
-		height: 77px !important;
-		font-size: 24px !important;
-	}
 }
 .solution-div {
-	padding: 50px 75px 50px 75px;
+	padding: auto auto auto auto;
 }
 .search-input {
 	border-color: #212528;
@@ -462,8 +457,7 @@ nav {
 	padding: auto;
 	background-color: white;
 	&:hover {
-		background-color: black;
-		color: white;
+		color: red;
 	}
 }
 .footer-links:hover {
