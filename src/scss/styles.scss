@@ -99,11 +99,12 @@ body {
 	.plans-title {
 		color: white;
 	}
-	transform: scaleX(1.1) scaleY(1.1);
+	transform: scaleY(1.1);
 	transition: transform 0.3s ease-in;
 	background: url("../assets/images/plans-bg.png") no-repeat;
 	background-position: center center;
 	background-size: 120% 120%;
+	backdrop-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 	.card-body {
 		.card-text {

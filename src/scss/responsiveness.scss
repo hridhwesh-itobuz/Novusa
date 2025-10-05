@@ -63,6 +63,9 @@
 }
 
 @media (min-width: 992px) {
+	.expert-caption {
+		margin-bottom: 3rem;
+	}
 	.hero-btn {
 		font-size: 15px;
 		margin-right: 0px;
@@ -150,6 +153,9 @@
 	}
 }
 @media (min-width: 1400px) {
+	.plans-container {
+		padding: 40px 0px 40px 0px;
+	}
 	.business-container {
 		margin-bottom: 50px;
 		margin-top: 50px;
@@ -241,6 +247,14 @@
 }
 
 @media (min-width: 1920px) {
+	.clients-review-card {
+		width: 579px;
+		height: 273px !important;
+	}
+	.clients-review-comment {
+		font-size: 17px !important;
+		margin: 41px 49px 20px 48px !important;
+	}
 	.hero-card-container {
 		margin-bottom: 170px;
 	}
@@ -516,16 +530,22 @@
 				img {
 					width: 771px !important;
 					height: 482px !important;
+					align-self: center;
 				}
 			}
 			div:nth-of-type(2) {
 				.need-heading {
+					margin-top: 114px !important;
 					font-size: 55px !important;
+					margin-bottom: 36px !important;
 				}
 				.need-caption {
 					font-size: 17px !important;
+					margin-bottom: 78px !important;
 				}
 				.need-cards {
+					width: 638px;
+					margin-bottom: 51px !important;
 					.box {
 						.box-heading {
 							font-size: 23px !important;
@@ -543,7 +563,7 @@
 		min-height: 101px !important;
 	}
 	.stats-section {
-		padding-top: 0px !important;
+		padding-top: 0px 0px 87px 0px !important;
 		.container {
 			div div div div {
 				h2 {
@@ -560,6 +580,8 @@
 	}
 	.speed-caption {
 		font-size: 17px !important;
+		width: 693px !important;
+		margin-bottom: 44px !important;
 	}
 	.speed-input {
 		width: 288px !important;
@@ -570,6 +592,9 @@
 		padding: auto !important;
 		width: 114px !important;
 		font-size: 16px !important;
+	}
+	.plans-container {
+		padding: 53px 0px 66px 0px !important;
 	}
 	.plans-heading {
 		font-size: 55px !important;
@@ -608,6 +633,7 @@
 	}
 	.expert-caption {
 		font-size: 17px !important;
+		margin-bottom: 64px !important;
 	}
 
 	.team-cards {
@@ -634,6 +660,9 @@
 	.subscribe-caption {
 		font-size: 20px !important;
 		margin-bottom: 41px !important;
+	}
+	.input-section {
+		margin-top: 41px;
 	}
 	.nav-option {
 		font-size: 24px !important;
